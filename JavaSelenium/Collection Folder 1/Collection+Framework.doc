@@ -1,0 +1,426 @@
+Message-ID: <1198646182.605.1549306477325@427e767883b0>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_604_1411545637.1549306477324"
+
+------=_Part_604_1411545637.1549306477324
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Collection Framework</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Collection Framework</h1>
+    <div class=3D"Section1">
+        <p>import java.util.ArrayList;</p>
+<p>import java.util.Comparator;</p>
+<p>import java.util.HashMap;</p>
+<p>import java.util.Hashtable;</p>
+<p>import java.util.Iterator;</p>
+<p>import java.util.LinkedList;</p>
+<p>import java.util.Objects;</p>
+<p>&nbsp;</p>
+<p>import org.junit.Test;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>public class Collection</p>
+<p>{</p>
+<p>&nbsp;&nbsp; &nbsp;ArrayList&lt;Integer&gt; al=3Dnew ArrayList&lt;Intege=
+r&gt;();</p>
+<p>&nbsp;&nbsp; &nbsp;LinkedList&lt;Integer&gt; ll=3Dnew LinkedList&lt;Inte=
+ger&gt;();</p>
+<p>&nbsp;&nbsp; &nbsp;</p>
+<p>&nbsp;&nbsp; &nbsp;@Test</p>
+<p>&nbsp;&nbsp; &nbsp;public void m1()</p>
+<p>&nbsp;&nbsp; &nbsp;{</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;/*long s=3DSystem.currentTimeMilli=
+s();</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;for( int i=3D0;i&lt;=3D100000;i++)=
+</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;{</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;al.add(i);</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;al.</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;}</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;for(int k=3D99999;k&gt;1000;k--)</=
+p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;{</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;al.get(k);</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;}</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;long e=3DSystem.currentTimeMillis(=
+);</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;System.out.println(e-s);</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; long s1=3DSystem.currentTimeM=
+illis();</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;for( int j=3D0;j&lt;=3D100000;j++)=
+</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;{</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;ll.add(j);</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;}</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;for(int l=3D99999;l&gt;1000;l--)</=
+p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;{</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;al.get(l);</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;}</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;long e1=3DSystem.currentTimeMillis=
+();</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;System.out.println(e1-s1);*/</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;al.add(9);</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;al.add(19);</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;al.add(5);</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Iterator i=3Dal.iterator();</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;while(i.hasNext())</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;{</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;System.out.prin=
+tln(i.next());</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;}</p>
+<p>&nbsp;&nbsp; &nbsp;}</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;@Test</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;public void m2()</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;{</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;HashMap&lt;Inte=
+ger,String&gt; hm=3Dnew HashMap&lt;Integer,String&gt;();</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Hashtable&lt;In=
+teger,String&gt; ht=3Dnew Hashtable&lt;Integer,String&gt;();</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;hm.put(1, "payo=
+n");</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;hm.put(2, "dip"=
+);</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;hm.put(null, nu=
+ll);</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;hm.put(null, nu=
+ll);</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;hm.put(null, nu=
+ll);</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;ht.put(1, "fhgk=
+h");</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;ht.put(2, "dgh"=
+);</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;//ht.put(3, nul=
+l);</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;//ht.put(null, =
+null);</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;/*for(int i=3D0=
+;i&lt;=3Dhm.size();i++)</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;{</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &n=
+bsp;System.out.println(hm.get(i));</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;}*/</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;for(int j=3D0;j=
+&lt;=3Dht.size();j++)</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;{</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &n=
+bsp;ht.get(j);</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;}</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;for(int k=3D0;k=
+&lt;ht.size();k++)</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;{</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &n=
+bsp;System.out.println(ht.remove(k));</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;}</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;}</p>
+<p>&nbsp;&nbsp; &nbsp;</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;</p>
+<p>&nbsp;&nbsp; &nbsp;}</p>
+<p>package collectionProject;</p>
+<p>&nbsp;</p>
+<p>import java.util.ArrayList;</p>
+<p>import java.util.Collections;</p>
+<p>import java.util.Comparator;</p>
+<p>import java.util.List;</p>
+<p>&nbsp;</p>
+<p>import org.junit.Test;</p>
+<p>&nbsp;</p>
+<p>class StringLengthComparator implements Comparator&lt;String&gt;</p>
+<p>{</p>
+<p>@Override</p>
+<p>public int compare(String s1, String s2)</p>
+<p>{</p>
+<p>/*int l=3Ds1.length();</p>
+<p>int l1=3Ds2.length();</p>
+<p>if(l&gt;l1)</p>
+<p>{</p>
+<p>return 1;</p>
+<p>}</p>
+<p>else if(l&lt;l1)</p>
+<p>{</p>
+<p>return -1;</p>
+<p>}</p>
+<p>return 0;</p>
+<p>}*/</p>
+<p>&nbsp;&nbsp; &nbsp;return -s1.compareTo(s2);</p>
+<p>}</p>
+<p>}</p>
+<p>public class S1 {</p>
+<p>&nbsp;</p>
+<p>&nbsp;&nbsp; &nbsp;@Test</p>
+<p>&nbsp;&nbsp; &nbsp;public void m1()</p>
+<p>&nbsp;&nbsp; &nbsp;{</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;List&lt;String&gt; animals=3Dnew A=
+rrayList&lt;String&gt;();</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;animals.add("chicken");</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;animals.add("deer");</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;animals.add("ant");</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;animals.add("tiger");</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Collections.sort(animals,new Strin=
+gLengthComparator());</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;for(String animal:animals)</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;{</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;System.out.println(animal);</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;}</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;List&lt;Integer&gt; number=3Dnew A=
+rrayList&lt;Integer&gt;();</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;number.add(16);</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;number.add(6);</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;number.add(26);</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Collections.sort(number);</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;for(Integer n:number)</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;{</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;System.out.println(n);</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;}</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;&nbsp; &nbsp;}</p>
+<p>&nbsp;&nbsp; &nbsp;@Test</p>
+<p>&nbsp;&nbsp; &nbsp;public void m2()</p>
+<p>&nbsp;&nbsp; &nbsp;{</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;String s3=3D"how are u";</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;System.out.println(s3.trim());</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;System.out.println(s3.replace("u",=
+ "rizbi"));</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;String a[]=3Ds3.split(" ");</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;System.out.println(a[0]);</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;System.out.println(s3.charAt(5));<=
+/p>
+<p>&nbsp;&nbsp; &nbsp;}</p>
+<p>&nbsp;</p>
+<p>}</p>
+    </div>
+</body>
+</html>
+------=_Part_604_1411545637.1549306477324--
